@@ -78,7 +78,7 @@ function pokemonDataToModal(pokemon) {
     return `
         <div id="detailHeader" class="${pokemonModal.type}">
             <button class="back-button" style="border-radius: 12px; border: 1px transparent; background-color: transparent;">
-                <img src="/assets/img/left-arrow-svgrepo-com.svg" alt="Back" height="24px" onclick="closeModal()"/>
+                <img src="assets/img/left-arrow-svgrepo-com.svg" alt="Back" height="24px" onclick="closeModal()"/>
             </button>
             <div id="fixedPokemonData">
                 <div id="pokemonName">${pokemonModal.name}</div>
